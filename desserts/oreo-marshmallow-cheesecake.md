@@ -1,5 +1,7 @@
 # Oreo Marshmallow Cheesecake
 
+![Photo](oreo-marshmallow-cheesecake.jpg)
+
 ## ingredients
 
 for a `7cm` radius cake
