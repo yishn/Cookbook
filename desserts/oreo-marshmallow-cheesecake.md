@@ -32,3 +32,8 @@ for a `7cm` radius cake
 - Put as many `marshmallows` in the mix as you see fit
 - Get cake pan out of the fridge and spread mix over the base
 - Refrigerate overnight
+
+## variants
+
+- Substitute `vanilla ice cream` with an ice cream flavor of your choice
+- Garnish with left over `oreo` cookie crumbs, cocoa powder, or grate some chocolate 
