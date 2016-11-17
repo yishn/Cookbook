@@ -31,6 +31,7 @@
 
 ## variants
 
-- Use black tea and milk instead of `instant coffee`
+- Use black tea instead of `instant coffee`
 - Add some alcohol of your choice to `instant coffee`
 - Instead of `nutella` use vanilla sauce or vanilla ice cream
+- Replace `ladyfingers` with sponge cake
