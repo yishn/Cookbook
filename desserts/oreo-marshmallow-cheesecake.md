@@ -23,14 +23,17 @@ for a `7cm` radius cake
 - Press the mix into the bottom of your cake pan
 - Place in the fridge
 
-### cake
+### filling
 
 - Whip `double cream`
 - Melt `vanilla ice cream`
 - Mix `vanilla ice cream` with `cream cheese`
 - Fold mix with the whipped `double cream`
 - Put as many `marshmallows` in the mix as you see fit
-- Get cake pan out of the fridge and spread mix over the base
+
+### cake
+
+- Get cake pan out of the fridge and spread filling over the base
 - Refrigerate overnight
 
 ## variants
