@@ -3,7 +3,7 @@
 ## ingredients
 
 - oreos `7 pieces`
-- double cream `100g`
+- heavy cream `100g`
 - mascarpone `125g`
 - nutella `1 heaped tbsp`
 - ladyfingers
@@ -16,10 +16,10 @@
 ### filling
 
 - Turn `oreos` into fine crumbs
-- Whip `double cream`
+- Whip `heavy cream`
 - Mix `mascarpone` and `nutella`
-- Fold mix with the whipped `double cream`
-- Put half of the `oreo` crumbs into the mixture
+- Put half of the `oreo` crumbs into the mix
+- Fold mix with the whipped `heavy cream`
 
 ### tiramisu
 
@@ -28,6 +28,7 @@
     - Use a spoon to dribble the `instant coffee` onto them until they are soaked thoroughly
     - Spoon half of the filling over them and spread it
 - Garnish with the remaining `oreo` crumbs
+- Refrigerate overnight
 
 ## variants
 
