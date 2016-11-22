@@ -11,11 +11,13 @@
 
 ## instructions
 
+### init
+
 - Make `instant coffee` and let it cool
+- Turn `oreos` into fine crumbs
 
 ### filling
 
-- Turn `oreos` into fine crumbs
 - Whip `heavy cream`
 - Mix `mascarpone` and `nutella`
 - Put half of the `oreo` crumbs into the mix
