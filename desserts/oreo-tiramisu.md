@@ -2,7 +2,7 @@
 
 ## ingredients
 
-- oreos `7 pieces`
+- oreos `8 pieces`
 - heavy cream `100g`
 - mascarpone `125g`
 - nutella `1 heaped tbsp`
