@@ -1,5 +1,7 @@
 # Pasta all'arrabbiata
 
+![Photo](./pasta-all-arrabbiata.jpg)
+
 ## ingredients
 
 - onion
