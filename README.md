@@ -2,6 +2,10 @@
 
 A real cookbook with quick & easy recipes.
 
+## pasta
+
+- [Pasta all'arrabbiata](pasta/pasta-all-arrabbiata.md)
+
 ## side dishes
 
 - [Cottage Fries](side-dishes/cottage-fries.md)
