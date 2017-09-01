@@ -41,5 +41,5 @@
 
 - Instead of `cayenne pepper`, add an appropriate amount of red pepper slices
 - Use penne or other pasta variants instead of spaghetti
-- Add some grated parmesan to the sauce to let them coat the spaghetti
+- Add some grated parmesan to the sauce and let them coat the pasta
 - Garnish with `basil` leaves and grated parmesan
