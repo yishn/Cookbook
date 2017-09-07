@@ -30,7 +30,7 @@
 
 ### pasta
 
-- Prepare `spaghetti` according to instructions
+- Prepare `spaghetti` according to package instructions
 - Wait until 5 minutes before finish
 - Let `butter` melt in sauce
 - Add `basil`, `sugar`, `salt`, `pepper`, and `cayenne pepper` to sauce to taste

@@ -4,6 +4,7 @@ A real cookbook with quick & easy recipes.
 
 ## pasta
 
+- [Faux Turkish Manti](pasta/faux-turkish-manti.md)
 - [Pasta all'arrabbiata](pasta/pasta-all-arrabbiata.md)
 
 ## side dishes
@@ -14,5 +15,6 @@ A real cookbook with quick & easy recipes.
 
 - [Chocolate Peanut Butter Dessert](desserts/chocolate-peanut-butter-dessert.md)
 - [Coconut Milk Rice Pudding](desserts/coconut-milk-rice-pudding.md)
-- [Oreo Tiramisu](desserts/oreo-tiramisu.md)
 - [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
+- [Oreo Tiramisu](desserts/oreo-tiramisu.md)
+
