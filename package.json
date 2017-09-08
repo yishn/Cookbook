@@ -1,0 +1,20 @@
+{
+  "name": "cookbook",
+  "version": "0.1.0",
+  "main": "./_build/index.js",
+  "author": "Yichuan Shen",
+  "license": "MIT",
+  "_moduleAliases": {
+    "react": "./node_modules/preact"
+  },
+  "dependencies": {
+    "module-alias": "^2.0.1",
+    "preact": "^8.2.5",
+    "preact-render-to-string": "^3.6.3",
+    "react-markdown": "^2.5.0",
+    "recursive-readdir": "^2.2.1"
+  },
+  "scripts": {
+    "start": "node ./_build/index.js"
+  }
+}
