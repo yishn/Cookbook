@@ -18,7 +18,7 @@ let extractTitle = content => render(h(Markdown, {
     renderers: {
         Heading: ({level, children}) => level === 1 ? children : null
     }
-})).slice('<title>'.length, -'</title>'.length)
+})).replace(/<\/?title>/g, '')
 
 let isNotMarkdownFile = (file, stats) => stats.isFile() && path.extname(file) !== '.md'
 let isInDependency = (file, stats) => stats.isDirectory() && path.basename(file) === 'node_modules'
@@ -28,16 +28,17 @@ recursive('./', [isNotMarkdownFile, isInDependency])
     let content = fs.readFileSync(file, 'utf8')
     let out = file === 'README.md' ? 'index.html' : `${file.slice(0, -3)}.html`
     let percent = Math.round((index + 1) * 100 / files.length)
-    let title = extractTitle(content)
 
-    if (title.indexOf('Cookbook') !== 0) {
-        title = `Cookbook: ${title}`
-    }
-
-    return {index, percent, file, out, title, content}
+    return {index, percent, file, out, content}
 }))
 .then(entries => {
-    for (let {percent, out, title, content} of entries) {
+    for (let {percent, out, content} of entries) {
+        let title = extractTitle(content)
+
+        if (title.indexOf('Cookbook') !== 0) {
+            title = `Cookbook: ${title}`
+        }
+
         fs.writeFileSync(out, '<!DOCTYPE html>' + render(
             h(Page, {title},
                 h(Markdown, {source: content})
