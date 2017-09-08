@@ -38,7 +38,7 @@ recursive('./', [isNotMarkdownFile, isInDependency])
 }))
 .then(entries => {
     for (let {percent, out, title, content} of entries) {
-        fs.writeFileSync(out, render(
+        fs.writeFileSync(out, '<!DOCTYPE html>' + render(
             h(Page, {title},
                 h(Markdown, {source: content})
             )
@@ -46,6 +46,7 @@ recursive('./', [isNotMarkdownFile, isInDependency])
 
         process.stdout.write(`\rProcessing ${percent}%...`)
     }
+
+    console.log('\nFinished.')
 })
-.then(() => console.log('\nFinished.'))
 .catch(console.error)
