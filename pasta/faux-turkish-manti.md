@@ -36,6 +36,7 @@
 
 ## variants
 
+- Use paprika powder instead of `cayenne pepper`
 - Use tortelloni or ravioli instead of `tortellini`
 - Use garlic powder instead of `garlic`
 - Cut open a mint tea bag for chopped mint
