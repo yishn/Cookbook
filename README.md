@@ -4,7 +4,7 @@ A real cookbook with quick & easy recipes.
 
 ## pasta
 
-- [Faux Turkish Manti](pasta/faux-turkish-manti.md)
+- [Faux Turkish Mantı](pasta/faux-turkish-manti.md)
 - [Pasta all'arrabbiata](pasta/pasta-all-arrabbiata.md)
 
 ## side dishes

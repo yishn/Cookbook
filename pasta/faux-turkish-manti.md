@@ -1,4 +1,4 @@
-# Faux Turkish Manti
+# Faux Turkish Mantı
 
 ![Photo](./faux-turkish-manti.jpg)
 
