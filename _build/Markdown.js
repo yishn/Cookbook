@@ -7,6 +7,10 @@ module.exports = class Markdown extends Component {
             containerProps: {id: 'root'},
             skipHtml: true,
             renderers: {
+                Heading: ({level, children}) => h(`h${level}`, {
+                    id: level <= 2 ? children[0].toLowerCase().replace(/\W+/g, '-') : null
+                }, children),
+
                 Link: ({href, title, children}) => h('a', {
                     title,
                     href: href.slice(-3) === '.md' ? href.slice(0, -3) + '.html' : href
