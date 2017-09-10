@@ -23,10 +23,12 @@ let extractTitle = content => render(h(Markdown, {
 let isNotMarkdownFile = (file, stats) => stats.isFile() && path.extname(file) !== '.md'
 let isInDependency = (file, stats) => stats.isDirectory() && path.basename(file) === 'node_modules'
 
-recursive('./', [isNotMarkdownFile, isInDependency])
+let stylesheet = path.join(__dirname, 'cookbook.css')
+
+recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
 .then(files => files.map((file, index) => {
     let content = fs.readFileSync(file, 'utf8')
-    let out = file === 'README.md' ? 'index.html' : `${file.slice(0, -3)}.html`
+    let out = `${file.slice(0, -3)}.html`.replace('README', 'index')
     let percent = Math.round((index + 1) * 100 / files.length)
 
     return {index, percent, file, out, content}
@@ -40,7 +42,12 @@ recursive('./', [isNotMarkdownFile, isInDependency])
         }
 
         fs.writeFileSync(out, '<!DOCTYPE html>' + render(
-            h(Page, {title},
+            h(Page,
+                {
+                    title,
+                    stylesheet: path.relative(path.dirname(out), stylesheet).replace(/\\/g, '/')
+                },
+
                 h(Markdown, {source: content})
             )
         ))
