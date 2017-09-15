@@ -4,7 +4,7 @@ const ReactMarkdown = require('react-markdown')
 module.exports = class Markdown extends Component {
     render() {
         return h(ReactMarkdown, Object.assign({
-            containerProps: {id: 'root'},
+            containerProps: this.props.containerProps,
             skipHtml: true,
             renderers: {
                 Heading: ({level, children}) => h(`h${level}`, {

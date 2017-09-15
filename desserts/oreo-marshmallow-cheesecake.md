@@ -4,8 +4,6 @@
 
 ## ingredients
 
-for a `7cm` radius cake
-
 - butter `70g`
 - oreos `16 pieces`
 - double cream `150ml`
@@ -14,6 +12,8 @@ for a `7cm` radius cake
 - marshmallows
 
 ## instructions
+
+for a `7cm` radius cake
 
 ### base
 
@@ -39,4 +39,4 @@ for a `7cm` radius cake
 ## variants
 
 - Substitute `vanilla ice cream` with an ice cream flavor of your choice
-- Garnish with left over `oreo` cookie crumbs, cocoa powder, or grate some chocolate 
+- Garnish with left over `oreo` cookie crumbs, cocoa powder, or grate some chocolate

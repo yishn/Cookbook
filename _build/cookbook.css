@@ -1,5 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font: 100%/1.5 Inconsolata, monospace;
+    color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: black;
+    margin: 1em 0 .3em;
+}
+
+p, ul, ol {
+    margin: .5em 0;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul ul, ul ol, ol ul, ol ol {
+    margin: 0 0 0 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+code {
+    /*display: inline-block;*/
+    padding: 1px 2px;
+    background: #FEF29A;
+    font-family: Inconsolata, monospace;
+}
+
+a {
+        border-bottom: 1px solid #FB7D65;
+        color: #D95B43;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #C02942;
+    }
+    a:active {
+        color: #542437;
+}
+
+#root {
+    margin: 0 auto;
+    padding: 1px 2em;
+    width: 50%;
+    min-width: 500px;
+}
+
+#root.recipe {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-rows: auto;
+        grid-template-columns: 33% 67%;
+        width: 80%;
+    }
+    .recipe > * {
+        grid-column-start: 2;
+    }
+    .recipe #ingredients, .recipe #ingredients + * {
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+    .recipe #ingredients + * {
+        grid-row-start: 4;
+    }

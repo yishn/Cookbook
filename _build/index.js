@@ -37,18 +37,17 @@ recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
     for (let {percent, out, content} of entries) {
         let title = extractTitle(content)
 
-        if (title.indexOf('Cookbook') !== 0) {
-            title = `Cookbook: ${title}`
-        }
-
         fs.writeFileSync(out, '<!DOCTYPE html>' + render(
             h(Page,
                 {
-                    title,
+                    title: title.indexOf('Cookbook') !== 0 ? `Cookbook: ${title}` : title,
                     stylesheet: path.relative(path.dirname(out), stylesheet).replace(/\\/g, '/')
                 },
 
-                h(Markdown, {source: content})
+                h(Markdown, {
+                    containerProps: {id: 'root', class: title !== 'Cookbook' && 'recipe'},
+                    source: content
+                })
             )
         ))
 
