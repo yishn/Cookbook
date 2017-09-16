@@ -29,6 +29,11 @@ ul ul, ul ol, ol ul, ol ol {
     margin: 0 0 0 2em;
 }
 
+em {
+    font-style: normal;
+    opacity: .5;
+}
+
 img {
     max-width: 100%;
 }

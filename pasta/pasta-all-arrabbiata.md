@@ -4,7 +4,7 @@
 
 ## ingredients
 
-- onion
+- onion `1 medium`
 - garlic `1 clove`
 - olive oil
 - salt & pepper
