@@ -12,7 +12,6 @@
 - passed tomatoes `250ml`
 - water `100ml`
 - basil
-- sugar
 - butter `1 tbsp`
 - spaghetti `100g`
 
@@ -25,7 +24,6 @@
 - Add in `garlic` and `cayenne pepper` and stir for one minute
 - Turn heat to medium low and add in `passed tomatoes` and `water`
 - Cook for 45 minutes
-- Add sugar to taste
 - Turn heat down
 
 ### pasta
@@ -33,7 +31,7 @@
 - Prepare `spaghetti` according to package instructions
 - Wait until 5 minutes before finish
 - Let `butter` melt in sauce
-- Add `basil`, `sugar`, `salt`, `pepper`, and `cayenne pepper` to sauce to taste
+- Add `basil`, `salt`, `pepper`, and `cayenne pepper` to sauce to taste
 - When `spaghetti` turn al dente, drain them and place them in sauce with some pasta water
 - Coat them in sauce thoroughly and serve
 
