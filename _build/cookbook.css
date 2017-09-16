@@ -13,7 +13,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: black;
-    margin: 1em 0 .3em;
+    margin: 1em 0 .5em;
+    line-height: 1.2;
 }
 
 p, ul, ol {
@@ -53,25 +54,27 @@ a {
 
 #root {
     margin: 0 auto;
-    padding: 1px 2em;
+    padding: 1px 2em 3em;
     width: 50%;
     min-width: 500px;
 }
 
 #root.recipe {
-        display: grid;
-        grid-auto-flow: column;
-        grid-auto-rows: auto;
-        grid-template-columns: 33% 67%;
         width: 80%;
     }
     .recipe > * {
-        grid-column-start: 2;
+        margin-left: calc(33% + 1.25rem);
     }
-    .recipe #ingredients, .recipe #ingredients + * {
-        grid-column-start: 1;
-        grid-row-start: 3;
+    .recipe > #ingredients, .recipe > #ingredients + * {
+        float: left;
+        margin-left: 0;
+        padding-right: 2.5rem;
+        width: 33%;
     }
-    .recipe #ingredients + * {
-        grid-row-start: 4;
+    .recipe > #ingredients + * {
+        clear: left;
     }
+    .recipe > #ingredients, .recipe > #ingredients + * + h2 {
+        margin-top: 0;
+        padding-top: .5em;
+}
