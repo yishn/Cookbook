@@ -8,7 +8,7 @@ module.exports = class Page extends Component {
                 this.props.stylesheet && h('link', {rel: 'stylesheet', href: this.props.stylesheet}),
                 this.props.title && h('title', {}, this.props.title)
             ),
-            h('body', {},
+            h('body', this.props.bodyProps,
                 this.props.children
             )
         )

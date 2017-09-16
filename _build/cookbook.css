@@ -52,47 +52,60 @@ a {
         color: #542437;
 }
 
-#root {
+main, footer {
+    padding: 1px 2em;
     margin: 0 auto;
-    padding: 1px 2em 3em;
     width: 50%;
     min-width: 500px;
 }
 
-#root.recipe {
+footer {
+        margin: 2.5em auto;
+    }
+    footer .button {
+        font-size: .9em;
+}
+
+.recipe main, .recipe footer {
         width: 80%;
     }
-    .recipe > * {
+    .recipe footer > * {
         margin-left: calc(33% + 1.25rem);
     }
-    .recipe > #ingredients, .recipe > #ingredients + * {
+    .recipe main > * {
+        margin-left: calc(33% + 1.25rem);
+    }
+    .recipe main > #ingredients, .recipe main > #ingredients + * {
         float: left;
         margin-left: 0;
         padding-right: 2.5rem;
         width: 33%;
     }
-    .recipe > #ingredients + * {
+    .recipe main > #ingredients + * {
         clear: left;
     }
-    .recipe > #ingredients, .recipe > #ingredients + * + h2 {
+    .recipe main > #ingredients, .recipe main > #ingredients + * + h2 {
         margin-top: 0;
         padding-top: .5em;
 }
 
-h1 .back {
-    display: inline-block;
-    border: none;
-    padding: 0 5px;
-    margin-left: -4.3em;
-    background: #D95B43;
-    color: white;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    vertical-align: middle;
+a.button {
+        display: inline-block;
+        border: none;
+        padding: 0 5px;
+        background: #D95B43;
+        color: white;
+        text-transform: uppercase;
+        vertical-align: middle;
     }
-    h1 .back:hover {
+    a.button:hover {
         background: #C02942;
     }
-    h1 .back:active {
+    a.button:active {
         background: #542437;
+}
+
+h1 .back {
+    margin-left: -4.35em;
+    font-size: 1.2rem;
 }

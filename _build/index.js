@@ -32,23 +32,36 @@ recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
     return {index, percent, file, out, content}
 }))
 .then(entries => {
-    for (let {percent, out, content} of entries) {
+    for (let {percent, file, out, content} of entries) {
         let title = extractTitle(content)
+        let editLink = 'https://github.com/yishn/Cookbook/blob/master/'
+            + path.relative(path.join(__dirname, '..'), file).replace(/\\/g, '/')
 
         fs.writeFileSync(out, '<!DOCTYPE html>' + render(
             h(Page,
                 {
                     title: title.indexOf('Cookbook') !== 0 ? `Cookbook: ${title}` : title,
                     stylesheet: path.relative(path.dirname(out), path.join(__dirname, 'cookbook.css'))
-                        .replace(/\\/g, '/')
+                        .replace(/\\/g, '/'),
+                    bodyProps: {class: title !== 'Cookbook' && 'recipe'}
                 },
 
                 h(Markdown, {
-                    containerProps: {id: 'root', class: title !== 'Cookbook' && 'recipe'},
+                    containerTagName: 'main',
                     indexLink: path.relative(path.dirname(out), path.join(__dirname, '..', 'index.html'))
                         .replace(/\\/g, '/'),
                     source: content
-                })
+                }),
+
+                h('footer', {},
+                    h('p', {},
+                        h('a', {class: 'button', href: editLink}, 'Edit'),
+                        ' ',
+                        h('a', {class: 'button', href: 'https://github.com/yishn/Cookbook'}, 'GitHub'),
+                        ' created by ',
+                        h('a', {href: 'http://yichuanshen.de/'}, 'Yichuan Shen')
+                    )
+                )
             )
         ))
 
