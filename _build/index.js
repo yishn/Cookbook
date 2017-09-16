@@ -23,8 +23,6 @@ let extractTitle = content => render(h(Markdown, {
 let isNotMarkdownFile = (file, stats) => stats.isFile() && path.extname(file) !== '.md'
 let isInDependency = (file, stats) => stats.isDirectory() && path.basename(file) === 'node_modules'
 
-let stylesheet = path.join(__dirname, 'cookbook.css')
-
 recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
 .then(files => files.map((file, index) => {
     let content = fs.readFileSync(file, 'utf8')
@@ -41,11 +39,14 @@ recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
             h(Page,
                 {
                     title: title.indexOf('Cookbook') !== 0 ? `Cookbook: ${title}` : title,
-                    stylesheet: path.relative(path.dirname(out), stylesheet).replace(/\\/g, '/')
+                    stylesheet: path.relative(path.dirname(out), path.join(__dirname, 'cookbook.css'))
+                        .replace(/\\/g, '/')
                 },
 
                 h(Markdown, {
                     containerProps: {id: 'root', class: title !== 'Cookbook' && 'recipe'},
+                    indexLink: path.relative(path.dirname(out), path.join(__dirname, '..', 'index.html'))
+                        .replace(/\\/g, '/'),
                     source: content
                 })
             )
