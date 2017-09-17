@@ -1,16 +1,19 @@
+const diacritic = require('diacritic')
 const {h, Component} = require('preact')
 const ReactMarkdown = require('react-markdown')
 
 module.exports = class Markdown extends Component {
     render() {
         return h(ReactMarkdown, Object.assign({
-            containerTagName: this.props.containerTagName,
-            containerProps: this.props.containerProps,
             skipHtml: true,
             renderers: {
                 Heading: ({level, children}) => h(`h${level}`,
                     {
-                        id: level <= 2 ? children[0].toLowerCase().replace(/\W+/g, '-') : null
+                        id: level <= 2
+                            ? diacritic.clean(children[0]).toLowerCase()
+                                .replace(/\W+/g, ' ').trim()
+                                .replace(/ /g, '-')
+                            : null
                     },
 
                     level === 1 && children[0] !== 'Cookbook' && [h('a', {
