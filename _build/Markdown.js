@@ -23,7 +23,8 @@ module.exports = class Markdown extends Component {
 
                 Link: ({href, title, children}) => h('a', {
                     title,
-                    href: (href.slice(-3) === '.md' ? href.slice(0, -3) + '.html' : href).replace('README', 'index')
+                    href: (href.slice(-3) === '.md' ? href.slice(0, -3) + '.html' : href)
+                        .replace('/README.html', '/')
                 }, children)
             }
         }, this.props))

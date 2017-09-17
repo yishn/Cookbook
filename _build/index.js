@@ -48,7 +48,7 @@ recursive(path.join(__dirname, '..'), [isNotMarkdownFile, isInDependency])
 
                 h(Markdown, {
                     containerTagName: 'main',
-                    indexLink: path.relative(path.dirname(out), path.join(__dirname, '..', 'index.html'))
+                    indexLink: path.relative(path.dirname(out), path.join(__dirname, '..'))
                         .replace(/\\/g, '/'),
                     source: content
                 }),
