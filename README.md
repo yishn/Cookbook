@@ -1,6 +1,6 @@
 # Cookbook
 
-A real cookbook with quick & easy recipes.
+Algorithmic cookbook for delicious food.
 
 ## pasta
 
