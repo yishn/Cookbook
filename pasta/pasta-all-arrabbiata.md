@@ -1,4 +1,4 @@
-# Pasta all'arrabbiata
+# Pasta all'Arrabbiata
 
 ![Photo](./pasta-all-arrabbiata.jpg)
 

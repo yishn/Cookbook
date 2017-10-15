@@ -5,7 +5,8 @@ Algorithmic cookbook for delicious food.
 ## pasta
 
 - [Faux Turkish Mantı](pasta/faux-turkish-manti.md)
-- [Pasta all'arrabbiata](pasta/pasta-all-arrabbiata.md)
+- [Pasta all'Arrabbiata](pasta/pasta-all-arrabbiata.md)
+- [Stir-Fry Spaghetti](pasta/stir-fry-spaghetti.md)
 
 ## side dishes
 
