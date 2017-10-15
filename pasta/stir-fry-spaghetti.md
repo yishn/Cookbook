@@ -4,7 +4,7 @@
 
 ## ingredients
 
-- salt & pepper
+- salt && pepper
 - cayenne pepper
 - eggs `1 piece`
 - light soy sauce
@@ -33,7 +33,7 @@
 
 ### omelette
 
-- Crack `egg` into a mixing bowl and scramble with some `salt & pepper`
+- Crack `egg` into a mixing bowl and scramble with some `salt` and `pepper`
 - Heat some `vegetable oil` in a pan on medium heat
 - Once warm, add eggs and move the pan around to spread them out
 - When the eggs firm up, use a spatula to ease around the edges and flip

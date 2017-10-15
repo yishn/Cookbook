@@ -4,10 +4,10 @@
 
 ## ingredients
 
-- onion `1 medium`
+- onion `1 small`
 - garlic `1 clove`
 - olive oil
-- salt & pepper
+- salt && pepper
 - cayenne pepper
 - passed tomatoes `250ml`
 - water `100ml`

@@ -9,7 +9,7 @@
 - mascarpone `125g`
 - peanut butter `2 tbsp`
 - chocolate `150g`
-- sugar & salt
+- sugar && salt
 
 ## instructions
 
@@ -21,7 +21,7 @@
 ### peanut butter cream
 
 - In a bowl, combine `mascarpone` and `peanut butter` with `2 tbsp` of `heavy cream`
-- Add `sugar & salt` as needed
+- Add `sugar` and `salt` as needed
 
 ### chocolate cream
 

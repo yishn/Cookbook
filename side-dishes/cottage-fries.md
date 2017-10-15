@@ -6,7 +6,7 @@
 
 - potatoes
 - olive oil
-- salt & pepper
+- salt && pepper
 - garlic powder *(optional)*
 - paprika powder *(optional)*
 - dried rosemary *(optional)*

@@ -4,7 +4,7 @@
 
 ## ingredients
 
-- salt & pepper
+- salt && pepper
 - yoghurt `150g`
 - garlic `1 clove`
 - fresh mint
