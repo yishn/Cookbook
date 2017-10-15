@@ -16,6 +16,6 @@
     "recursive-readdir": "^2.2.1"
   },
   "scripts": {
-    "start": "node ./_build/index.js"
+    "build": "node ./_build/index.js"
   }
 }
