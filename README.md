@@ -16,6 +16,7 @@ Algorithmic cookbook for delicious food.
 
 - [Chocolate Peanut Butter Dessert](desserts/chocolate-peanut-butter-dessert.md)
 - [Coconut Milk Rice Pudding](desserts/coconut-milk-rice-pudding.md)
+- [Egg Tart](desserts/egg-tart.md)
 - [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
 - [Oreo Tiramisu](desserts/oreo-tiramisu.md)
 
