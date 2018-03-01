@@ -20,3 +20,6 @@ Algorithmic cookbook for delicious food.
 - [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
 - [Oreo Tiramisu](desserts/oreo-tiramisu.md)
 
+## drinks
+
+- [Coconut Milk Soda](drinks/coconut-milk-soda.md)
