@@ -9,7 +9,7 @@
 - sugar `4 tbsp`
 - milk `250ml`
 - eggs `2 pieces`
-- starch `3 tbsp`
+- starch `2 tbsp`
 
 ## instructions
 
