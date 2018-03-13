@@ -11,6 +11,7 @@ Algorithmic cookbook for delicious food.
 ## side dishes
 
 - [Cottage Fries](side-dishes/cottage-fries.md)
+- [Edamame](side-dishes/edamame.md)
 
 ## desserts
 
