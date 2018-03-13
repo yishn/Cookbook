@@ -13,7 +13,7 @@
 
 ### init
 
-- In a pot, bring water to a boil
+- In a pot, add `salt` to water and bring it to a boil
 - Blanch `edamame` for 10 minutes
 - Mince `garlic`
 
