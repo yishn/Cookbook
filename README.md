@@ -8,6 +8,10 @@ Algorithmic cookbook for delicious food.
 - [Pasta all'Arrabbiata](pasta/pasta-all-arrabbiata.md)
 - [Stir-Fry Spaghetti](pasta/stir-fry-spaghetti.md)
 
+## soups
+
+- [French Onion Soup](soups/french-onion-soup.md)
+
 ## side dishes
 
 - [Cottage Fries](side-dishes/cottage-fries.md)
