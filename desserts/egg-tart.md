@@ -30,7 +30,7 @@
 - Preheat oven to 220°C
 - Prepare muffin tin
 - Repeat until muffin tin is full:
-	- Cut a circle from the `puff pastry` sheet, roughly with the diameter of a muffin mold
+	- Cut a circle from the `puff pastry` sheet, roughly of the diameter of a muffin mold
 	- With your hands, gently press to slightly enlarge the dough circle
 	- Press dough circle inside muffin mold and press/pull the dough until the walls are covered with dough
 	- Pour `custard` into dough shell 70% full
