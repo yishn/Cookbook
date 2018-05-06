@@ -6,6 +6,7 @@ Algorithmic cookbook for delicious food.
 
 - [Faux Turkish Mantı](pasta/faux-turkish-manti.md)
 - [Pasta all'Arrabbiata](pasta/pasta-all-arrabbiata.md)
+- [Scallion Oil Spaghetti](pasta/scallion-oil-spaghetti.md)
 - [Stir-Fry Spaghetti](pasta/stir-fry-spaghetti.md)
 
 ## soups
