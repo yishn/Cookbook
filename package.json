@@ -9,11 +9,11 @@
   },
   "dependencies": {
     "diacritic": "0.0.2",
-    "module-alias": "^2.0.1",
-    "preact": "^8.2.5",
-    "preact-render-to-string": "^3.6.3",
-    "react-markdown": "^2.5.0",
-    "recursive-readdir": "^2.2.1"
+    "module-alias": "^2.0.6",
+    "preact": "^8.2.9",
+    "preact-render-to-string": "^3.7.0",
+    "react-markdown": "^2.5.1",
+    "recursive-readdir": "^2.2.2"
   },
   "scripts": {
     "build": "node ./_build/index.js"

@@ -26,3 +26,4 @@ Algorithmic cookbook for delicious food.
 - [Lemon Curd](desserts/lemon-curd.md)
 - [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
 - [Oreo Tiramisu](desserts/oreo-tiramisu.md)
+- [Puff Pastry Sesame Balls](desserts/puff-pastry-sesame-balls.md)
