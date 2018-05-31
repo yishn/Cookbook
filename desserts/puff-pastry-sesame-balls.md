@@ -28,7 +28,8 @@
 - Add water to the pot with the beans until the water is 3cm above the beans
 - Bring to a boil
 - Turn down the heat and simmer for 1.5 hours
-- When the beans are mushy, mash them with a fork
+- When the beans are mushy, drain
+- Mash beans with a fork
 - Pass the beans through a sieve so that you get a smooth paste
 - In a pot, add the paste, `salt`, and `sugar` on low heat
 - Stir until combined and the mixture is thick
