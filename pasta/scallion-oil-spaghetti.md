@@ -1,5 +1,7 @@
 # Scallion Oil Spaghetti
 
+![Photo](./scallion-oil-spaghetti.jpg)
+
 ## ingredients
 
 - spaghetti `100g`
@@ -21,12 +23,13 @@
 ### scallion oil
 
 - When oil is hot, add `scallions`
-- Wait 20 minutes or until `scallions` are thoroughly cooked
+- Fry for 20 minutes or until `scallions` are brown and thoroughly cooked
+	- Turn `scallions` every 5 minutes
 - Take half of the `scallions` out and drain them on a paper towel
 
 ### mix
 
 - Add `light soy sauce` and `sugar` to the scallion oil
-- Cook for additional one minute
+- Cook until `light soy sauce` boils
 - Add `spaghetti` and mix thoroughly
 - Garnish with some fresh `scallions`
