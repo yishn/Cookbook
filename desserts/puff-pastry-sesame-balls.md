@@ -37,17 +37,16 @@
 ### filling
 
 - After the paste has cooled down to room temperature, refridgerate for 1 hour
-- Roll the paste into the form of a thick stick
 - Divide the paste into 9 equal pieces and mold each one into a ball
-- Put the balls in the freezer until they're frozen
+- Put the fillings in the freezer until they're frozen
 
 ### balls
 
 - Roll out the `puff pastry` sheet and cut into 9 squares
-- Get the filling balls out of the freezer
+- Get the fillings out of the freezer
 - Do 9 times:
 	- On a puff pastry square, put a filling ball in the center
-	- Fold and flatten the dough lightly to seal the edges
+	- Fold and flatten the dough lightly around the filling to seal the edges
 	- Dip the ball into the water dish to cover it with water
 	- Dip the ball into the `sesame seeds` dish to cover it with `sesame seeds`
 
