@@ -9,7 +9,7 @@
 - olive oil
 - salt && pepper
 - cayenne pepper
-- passed tomatoes `250ml`
+- diced canned tomatoes `250ml`
 - water `100ml`
 - basil
 - butter `1 tbsp`
@@ -22,7 +22,7 @@
 - Finely chop `onion` and mince `garlic`
 - In a pan, sauté `onion` in some `olive oil` with some `salt` until they soften
 - Add in `garlic` and `cayenne pepper` and stir for one minute
-- Turn heat to medium low and add in `passed tomatoes` and `water`
+- Turn heat to medium low and add in `diced canned tomatoes` and `water`
 - Cook for 45 minutes
 - Turn heat down
 
