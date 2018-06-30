@@ -2,6 +2,10 @@
 
 Algorithmic cookbook for delicious food.
 
+## breakfast
+
+- [Banana Pancakes](breakfast/banana-pancakes.md)
+
 ## pasta
 
 - [Faux Turkish Mantı](pasta/faux-turkish-manti.md)
