@@ -8,7 +8,7 @@
 - cayenne pepper
 - eggs `1 piece`
 - light soy sauce
-- hoisin sauce || sugar *(optional)*
+- hoisin sauce `1 tbsp` || maple syrup `1 tsp` *(optional)*
 - vegetable oil
 - bacon `3 strips` *(optional)*
 - garlic `1 clove`
@@ -27,9 +27,9 @@
 ### sauce
 
 - If you have `hoisin sauce` available:
-	- Mix 3 tablespoons of `light soy sauce` and 1 tablespoon of `hoisin sauce` in a cup
+	- Mix 3 tablespoons of `light soy sauce` and `hoisin sauce` in a cup
 - Else:
-	- Mix 4 tablespoons of `light soy sauce` and, optionally, 0.5 tablespoons of `sugar` in a cup
+	- Mix 4 tablespoons of `light soy sauce` and, optionally, `maple syrup` in a cup
 
 ### omelette
 
