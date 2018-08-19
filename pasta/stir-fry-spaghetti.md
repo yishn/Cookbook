@@ -27,7 +27,7 @@
 
 - Add some `oil` to a pan
 - When hot, add the white part of the `scallion`
-- Cook until fragrant
+- Cook until slightly browned and fragrant
 - Stir in `curry powder` and `garlic` until fragrant
 - Add `spaghetti` to the pan
 - Add `light soy sauce` and stir thoroughly to coat `spaghetti` evenly
