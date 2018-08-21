@@ -1,5 +1,7 @@
 # Stir-Fry Spaghetti
 
+![Photo](./stir-fry-spaghetti.jpg)
+
 ## ingredients
 
 - garlic `1 clove`
@@ -43,3 +45,4 @@
 
 - Add a deep fried cutlet at the end, cut into strips
 - Add a fried egg
+- Add hot oil or red chili flakes
