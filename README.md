@@ -5,6 +5,7 @@ Algorithmic cookbook for delicious food.
 ## breakfast
 
 - [Banana Pancakes](breakfast/banana-pancakes.md)
+- [Crêpes](breakfast/crepes.md)
 
 ## pasta
 
