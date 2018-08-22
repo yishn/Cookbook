@@ -24,7 +24,7 @@
 - In a pan, add a smidge of butter on medium low heat
 - When hot, repeat until no batter is left:
     - Remove the pan from heat
-    - At an angle, add `1/3 cup` of the batter into the pan
+    - At an angle, add `1/4 cup` of the batter into the pan
     - Swivel pan to distribute batter evenly
     - Put pan on the heat and wait for 5 min
     - Flip
