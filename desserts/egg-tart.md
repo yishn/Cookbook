@@ -6,35 +6,35 @@
 
 - puff pastry
 - salt `1 pinch`
-- sugar `4 tbsp`
+- sugar `6 tbsp`
 - milk `250ml`
 - eggs `2 pieces`
-- starch `2 tbsp`
+- starch `1 tbsp`
 
 ## instructions
 
 ### custard
 
 - In a bowl, scramble the `eggs`
-- Add `2 tbsp` of `sugar` and the `starch`
+- Add `3 tbsp` of `sugar` and the `starch`
 - Mix until egg mixture is smooth
-- In a pot, add `milk` and `2 tbsp` of `sugar`
+- In a pot, add `milk`, a pinch of `salt`, and `3 tbsp` of `sugar`
 - Stir continuously and bring to boil
 - Gradually add the hot milk into the egg mixture while stirring
-- Transfer mixture into the pot
-- Add a pinch of `salt`
+- Transfer mixture into the pot and cook on low heat
 - Stir continuously and cook until the custard is thick
+- Pass the custard through a sieve
 
 ### composition
 
-- Preheat oven to 220°C
+- Preheat oven to 250°C
 - Prepare muffin tin
 - Repeat until muffin tin is full:
 	- Cut a circle from the `puff pastry` sheet, roughly of the diameter of a muffin mold
 	- With your hands, gently press to slightly enlarge the dough circle
 	- Press dough circle inside muffin mold and press/pull the dough until the walls are covered with dough
 	- Pour `custard` into dough shell 70% full
-- Bake for 20 minutes
+- Bake for 15 minutes
 
 ## variants
 
