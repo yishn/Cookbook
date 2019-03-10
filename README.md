@@ -14,6 +14,11 @@ Algorithmic cookbook for delicious food.
 - [Scallion Oil Spaghetti](pasta/scallion-oil-spaghetti.md)
 - [Stir-Fry Spaghetti](pasta/stir-fry-spaghetti.md)
 
+## rice
+
+- [Coconut Milk Rice Pudding](rice/coconut-milk-rice-pudding.md)
+- [Thai Red Litchi Curry](rice/thai-red-litchi-curry.md)
+
 ## soups
 
 - [French Onion Soup](soups/french-onion-soup.md)
@@ -26,7 +31,6 @@ Algorithmic cookbook for delicious food.
 ## desserts
 
 - [Chocolate Peanut Butter Dessert](desserts/chocolate-peanut-butter-dessert.md)
-- [Coconut Milk Rice Pudding](desserts/coconut-milk-rice-pudding.md)
 - [Egg Tart](desserts/egg-tart.md)
 - [Lemon Curd](desserts/lemon-curd.md)
 - [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
