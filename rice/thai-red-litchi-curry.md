@@ -6,15 +6,15 @@
 
 - onion `1 piece`
 - red bell pepper `1 piece`
-- rice `1/2 cup`
-- coconut milk `400ml`
-- water `1/3 cup`
+- rice `1/3 cup`
+- coconut milk `1/3 cup + 1/2 cup`
+- water
 - sugar `1 tbsp`
-- salt
 - oil
-- Thai red curry paste `3 tsp`
-- tomato paste `1 tsp`
+- Thai red curry paste `2 tsp`
+- tomato paste `1 tbsp`
 - light soy sauce `1 tbsp`
+- peanut butter `2 tsp`
 - canned litchi
 
 ## instructions
@@ -27,7 +27,7 @@
 ### coconut rice
 
 - Thoroughly rinse `rice`
-- Add `rice`, 1/3 cup of `coconut milk`, and `water` to a pot
+- Add `rice`, 1/4 cup of `coconut milk`, and 1/4 cup of `water` to a pot
 - Add `sugar` and a pinch of `salt`
 - On high heat bring the water to a boil
 - Turn heat to low and cover the pot
@@ -40,8 +40,9 @@
 - Reduce until thick and the coconut oil starts separating
 - Stir in `Thai red curry paste`
 - Stir in `tomato paste`
-- Add remaining `coconut milk` and `water` as needed
+- Add 1/3 cup of `coconut milk` and 1/3 cup of `water` as needed
 - Add `light soy sauce`, `onion`, and `red bell pepper`
 - Simmer for 15 minutes
+- Stir in `peanut butter`
 - Add some `canned litchi` and litchi syrup to taste
 - Heat through the litchi and serve
