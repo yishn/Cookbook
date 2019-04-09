@@ -17,7 +17,7 @@ Algorithmic cookbook for delicious food.
 ## rice
 
 - [Coconut Milk Rice Pudding](rice/coconut-milk-rice-pudding.md)
-- [Thai Red Litchi Curry](rice/thai-red-litchi-curry.md)
+- [Thai Red Mango Curry](rice/thai-red-mango-curry.md)
 
 ## soups
 
