@@ -19,10 +19,6 @@ Algorithmic cookbook for delicious food.
 - [Coconut Milk Rice Pudding](rice/coconut-milk-rice-pudding.md)
 - [Thai Red Mango Curry](rice/thai-red-mango-curry.md)
 
-## soups
-
-- [French Onion Soup](soups/french-onion-soup.md)
-
 ## side dishes
 
 - [Cottage Fries](side-dishes/cottage-fries.md)
@@ -33,6 +29,5 @@ Algorithmic cookbook for delicious food.
 - [Chocolate Peanut Butter Dessert](desserts/chocolate-peanut-butter-dessert.md)
 - [Egg Tart](desserts/egg-tart.md)
 - [Lemon Curd](desserts/lemon-curd.md)
-- [Oreo Marshmallow Cheesecake](desserts/oreo-marshmallow-cheesecake.md)
 - [Oreo Tiramisu](desserts/oreo-tiramisu.md)
 - [Puff Pastry Sesame Balls](desserts/puff-pastry-sesame-balls.md)
