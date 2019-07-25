@@ -9,6 +9,7 @@ Algorithmic cookbook for delicious food.
 
 ## pasta
 
+- [Creamy Cheese Sauce Gnocchi](pasta/creamy-cheese-sauce-gnocchi.md)
 - [Faux Turkish Mantı](pasta/faux-turkish-manti.md)
 - [Pasta all'Arrabbiata](pasta/pasta-all-arrabbiata.md)
 - [Scallion Oil Spaghetti](pasta/scallion-oil-spaghetti.md)
