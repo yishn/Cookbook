@@ -4,15 +4,17 @@
 
 ## ingredients
 
+- olive oil
 - onion `1 small`
 - garlic `1 clove`
-- olive oil
-- salt && pepper
+- carrot `1/2 medium`
+- milk
 - cayenne pepper
-- diced canned tomatoes `250ml`
-- water `100ml`
+- thyme
 - basil
-- butter `1 tbsp`
+- salt && pepper
+- diced canned tomatoes `250ml`
+- water `250ml`
 - spaghetti `100g`
 
 ## instructions
@@ -20,19 +22,22 @@
 ### sauce
 
 - Finely chop `onion` and mince `garlic`
+- Julienne and dice `carrot` very finely
 - In a pan, sauté `onion` in some `olive oil` with some `salt` until they soften
-- Add in `garlic` and `cayenne pepper` and stir for one minute
+- Add in `garlic` and `carrot` 
+- Add in `milk` until pan is covered
+- Add some `thyme` and `basil`
+- Add in `cayenne pepper` to taste
+- Constantly stir until most of the milk is evaporated
 - Turn heat to medium low and add in `diced canned tomatoes` and `water`
-- Cook for 45 minutes
+- Cook lid open until most of the water evaporates and the sauce has the right consistency
 - Turn heat down
 
 ### pasta
 
 - Prepare `spaghetti` according to package instructions
-- Wait until 5 minutes before finish
-- Let `butter` melt in sauce
+- When `spaghetti` turn al dente, drain them and place them in sauce along with some pasta water
 - Add `basil`, `salt`, `pepper`, and `cayenne pepper` to sauce to taste
-- When `spaghetti` turn al dente, drain them and place them in sauce with some pasta water
 - Coat them in sauce thoroughly and serve
 
 ## variants
