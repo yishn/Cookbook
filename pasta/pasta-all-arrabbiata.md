@@ -14,7 +14,7 @@
 - basil
 - salt && pepper
 - diced canned tomatoes `250ml`
-- water `250ml`
+- water `100ml`
 - spaghetti `100g`
 
 ## instructions
