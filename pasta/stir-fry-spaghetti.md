@@ -48,6 +48,7 @@
 
 ## variants
 
-- Add a deep fried cutlet at the end, cut into strips
 - Add a fried egg
 - Add hot oil or red chili flakes
+- Add other cooked vegetables, e.g. broccoli or carrots
+- Replace 1 tbsp of `soy sauce` with 1 tsp of bean paste or Gochujang
