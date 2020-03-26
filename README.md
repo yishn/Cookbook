@@ -4,7 +4,6 @@ Algorithmic cookbook for delicious food.
 
 ## breakfast
 
-- [Scallion Pancakes](breakfast/scallion-pancakes.md)
 - [Crêpes](breakfast/crepes.md)
 
 ## pasta
@@ -28,7 +27,6 @@ Algorithmic cookbook for delicious food.
 
 ## desserts
 
-- [Chocolate Peanut Butter Dessert](desserts/chocolate-peanut-butter-dessert.md)
 - [Egg Tart](desserts/egg-tart.md)
 - [Lemon Curd](desserts/lemon-curd.md)
 - [Oreo Tiramisu](desserts/oreo-tiramisu.md)
