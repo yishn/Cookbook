@@ -18,10 +18,10 @@
 
 ### filling
 
-- Whip `heavy cream`
+- Whip `heavy cream` until soft peaks
 - Mix `mascarpone` and `nutella`
 - Put half of the `oreo` crumbs into the mix
-- Fold mix with the whipped `heavy cream`
+- Fold in the whipped `heavy cream`
 
 ### tiramisu
 
@@ -36,5 +36,4 @@
 
 - Use black tea instead of `instant coffee`
 - Add some alcohol of your choice to `instant coffee`
-- Instead of `nutella` use vanilla sauce or vanilla ice cream
 - Replace `ladyfingers` with sponge cake

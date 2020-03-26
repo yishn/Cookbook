@@ -36,7 +36,7 @@
 ### combine
 
 - Add fried `gnocchis` back to the sauce
-- Stir in `grated parmesan`
+- Stir in `grated parmesan` until the sauce slightly thickens
 - Add `salt`, `pepper`, and `cayenne pepper` to taste
 - Coat `gnocchis` in sauce thoroughly and serve
 

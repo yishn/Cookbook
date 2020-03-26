@@ -7,11 +7,10 @@
 - olive oil
 - onion `1 small`
 - garlic `1 clove`
-- carrot `1/2 medium`
+- carrot `1 medium`
 - milk
 - cayenne pepper
-- thyme
-- basil
+- thyme && basil
 - salt && pepper
 - diced canned tomatoes `250ml`
 - water `100ml`
@@ -24,11 +23,11 @@
 - Finely chop `onion` and mince `garlic`
 - Julienne and dice `carrot` very finely
 - In a pan, sauté `onion` in some `olive oil` with some `salt` until they soften
-- Add in `garlic` and `carrot` 
+- Add in `garlic` and `carrot`, and stir for one minute
 - Add in `milk` until pan is covered
 - Add some `thyme` and `basil`
 - Add in `cayenne pepper` to taste
-- Constantly stir until most of the milk is evaporated
+- Regularly stir until most of the milk is evaporated
 - Turn heat to medium low and add in `diced canned tomatoes` and `water`
 - Cook lid open until most of the water evaporates and the sauce has the right consistency
 - Turn heat down
