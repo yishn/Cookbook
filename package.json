@@ -1,0 +1,12 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {},
+  "author": "Yichuan Shen",
+  "description": "Algorithmic cookbook for delicious food",
+  "devDependencies": {
+    "marked": "^15.0.4",
+    "yaml": "^2.6.1"
+  }
+}
