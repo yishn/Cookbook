@@ -6,7 +6,6 @@
   - dessert
   - cake
   - baking
-- servings: 10
 
 ## instructions
 
