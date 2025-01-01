@@ -1,5 +1,6 @@
 import { marked } from "marked";
 import YAML from "yaml";
+import { UnitNumber } from "./unit.js";
 
 export function extractRecipeData(content) {
   const codespans = [];
@@ -47,16 +48,23 @@ export function extractRecipeData(content) {
 
   result.equipment = codespans
     .filter((text) => text.startsWith("#"))
-    .map((text) => text.slice(1).trim());
+    .map((text) => text.slice(1).trim())
+    .map((text) => parseCodespan(text))
+    .filter((value) => value != null);
   result.times = codespans
     .filter((text) => text.startsWith("~"))
-    .map((text) => text.slice(1).trim());
-  result.ingredients = codespans.filter(
-    (text) =>
-      !text.startsWith("#") &&
-      !text.startsWith("~") &&
-      !result.subprocedures.includes(text)
-  );
+    .map((text) => text.slice(1).trim())
+    .map((text) => parseCodespan(text))
+    .filter((value) => value != null);
+  result.ingredients = codespans
+    .filter(
+      (text) =>
+        !text.startsWith("#") &&
+        !text.startsWith("~") &&
+        !result.subprocedures.includes(text)
+    )
+    .map((text) => parseCodespan(text))
+    .filter((value) => value != null);
 
   // Reset marked
 
@@ -67,6 +75,21 @@ export function extractRecipeData(content) {
       codespan: () => false,
     },
   });
+
+  return result;
+}
+
+function parseCodespan(value) {
+  const match = value.match(/^(\d*\.?\d+)([°\w]*)\s*(.*)$/);
+  if (!match) return null;
+
+  const result = {
+    amount: new UnitNumber(parseFloat(match[1]), match[2]),
+  };
+
+  if (match[3]) {
+    result.label = match[3];
+  }
 
   return result;
 }

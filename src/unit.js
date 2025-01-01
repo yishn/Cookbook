@@ -4,6 +4,11 @@ const unitsTable = [
     ["F", "°F"],
   ],
   [
+    [1, "h", "hr", "hour", "hours"],
+    [60, "m", "min", "minute", "minutes"],
+    [3600, "s", "sec", "second", "seconds"],
+  ],
+  [
     [1, "cm"],
     [2.54, "in", "inch", "inches"],
   ],
@@ -79,7 +84,7 @@ const fractions = {
 
 export class UnitNumber {
   static parse(str) {
-    const match = str.match(/^(\d*\.?\d+)\s*([°\w]+)$/);
+    const match = str.match(/^(\d*\.?\d+)\s*([°\w]*)$/);
     if (!match) throw new Error("Invalid unit number");
 
     return new UnitNumber(parseFloat(match[1]), match[2]);
