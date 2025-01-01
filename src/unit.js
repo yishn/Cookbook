@@ -1,12 +1,12 @@
 const unitsTable = [
   [
-    ["C", "°C"],
-    ["F", "°F"],
+    ["°C", "C"],
+    ["°F", "F"],
   ],
   [
     [1, "h", "hr", "hour", "hours"],
-    [60, "m", "min", "minute", "minutes"],
-    [3600, "s", "sec", "second", "seconds"],
+    [60, "min", "m", "minute", "minutes"],
+    [3600, "sec", "s", "second", "seconds"],
   ],
   [
     [1, "cm"],
@@ -84,15 +84,34 @@ const fractions = {
 
 export class UnitNumber {
   static parse(str) {
-    const match = str.match(/^(\d*\.?\d+)\s*([°\w]*)$/);
-    if (!match) throw new Error("Invalid unit number");
+    const aliases = str.split("/");
+    const parsedAliases = aliases.map((alias) => {
+      const match = alias.trim().match(/^(\d*\.?\d+)\s*([°\w]*)$/);
+      if (!match) throw new Error("Invalid unit number");
 
-    return new UnitNumber(parseFloat(match[1]), match[2]);
+      return new UnitNumber(parseFloat(match[1]), match[2]);
+    });
+
+    return new UnitNumber(
+      parsedAliases[0].value,
+      parsedAliases[0].unit,
+      parsedAliases
+    );
   }
 
-  constructor(value, unit) {
+  constructor(value, unit, aliases = []) {
     this.value = value;
-    this.unit = unit;
+    this.unit =
+      unitsTable
+        .flat()
+        .find((unitData) => unitData.includes(unit))
+        ?.filter((value) => typeof value === "string")[0] ?? unit;
+    this.aliases = aliases
+      .filter((a) => !a.equalUnits(this))
+      .map((alias, _, aliases) => {
+        alias.aliases = [...aliases.filter((a) => !a.equalUnits(alias)), this];
+        return alias;
+      });
 
     if (unit === "cup" && value > 1) {
       this.unit = "cups";
@@ -108,19 +127,43 @@ export class UnitNumber {
   }
 
   convert(unit) {
-    return new UnitNumber(convert(this.unit, unit, this.value), unit);
+    for (const alias of [this, ...this.aliases]) {
+      try {
+        return new UnitNumber(
+          convert(alias.unit, unit, alias.value),
+          unit,
+          alias.aliases
+        );
+      } catch (err) {
+        // Ignore
+      }
+    }
+
+    throw new Error("Cannot convert units");
   }
 
   add(other) {
     if (!this.equalUnits(other)) {
-      try {
-        other = other.convert(this.unit);
-      } catch (err) {
-        throw new Error("Units do not match");
+      for (const alias of this.aliases) {
+        try {
+          return alias.add(other.convert(alias.unit)).convert(this.unit);
+        } catch (err) {
+          // Ignore
+        }
       }
+
+      throw new Error("Cannot add units");
     }
 
-    return new UnitNumber(this.value + other.value, this.unit);
+    const factor = (this.value + other.value) / this.value;
+
+    return new UnitNumber(
+      this.value + other.value,
+      this.unit,
+      this.aliases.map(
+        (alias) => new UnitNumber(alias.value * factor, alias.unit)
+      )
+    );
   }
 
   toString() {
@@ -138,7 +181,9 @@ export class UnitNumber {
       )[0];
     }
 
-    return `${integer}${fraction ?? ""} ${this.unit}`;
+    return `${!fraction || integer !== 0 ? integer : ""}${fraction ?? ""}${
+      this.unit
+    }`;
   }
 }
 
