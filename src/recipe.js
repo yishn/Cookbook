@@ -80,16 +80,13 @@ export function extractRecipeData(content) {
 }
 
 function parseCodespan(value) {
-  const match = value.match(/^(\d*\.?\d+)([°\w]*)\s*(.*)$/);
+  const match = value.match(/^((?:\d*\.?\d+[°\w]*\/?)*)\s*(.*)$/);
   if (!match) return null;
 
-  const result = {
-    amount: new UnitNumber(parseFloat(match[1]), match[2]),
-  };
+  const result = {};
 
-  if (match[3]) {
-    result.label = match[3];
-  }
+  if (match[1]) result.amount = UnitNumber.parse(match[1]);
+  if (match[2]) result.label = match[2];
 
   return result;
 }

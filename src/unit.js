@@ -185,6 +185,13 @@ export class UnitNumber {
       this.unit
     }`;
   }
+
+  toJSON() {
+    return {
+      value: this.value,
+      unit: this.unit,
+    };
+  }
 }
 
 export class UnitNumberSum {
