@@ -90,3 +90,7 @@ function parseCodespan(value) {
 
   return result;
 }
+
+import { readFileSync } from "node:fs";
+const content = readFileSync("./recipes/lemon-blueberry-cake.md", "utf-8");
+console.log(extractRecipeData(content));

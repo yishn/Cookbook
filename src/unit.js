@@ -120,6 +120,14 @@ export class UnitNumber {
     }
   }
 
+  equal(other) {
+    if (this.unit === other.unit) {
+      return this.value === other.value;
+    }
+
+    return this.convert(other.unit).value === other.value;
+  }
+
   equalUnits(other) {
     return unitsTable
       .flat()
@@ -214,6 +222,26 @@ export class UnitNumberSum {
     }
 
     return this;
+  }
+
+  equal(other) {
+    for (const number of Object.values(this.data)) {
+      let found = false;
+
+      for (const [otherUnit, otherNumber] of Object.entries(other.data)) {
+        try {
+          if (number.convert(otherUnit).equal(otherNumber)) {
+            found = true;
+          } else {
+            return false;
+          }
+        } catch (err) {}
+      }
+
+      if (!found) return false;
+    }
+
+    return true;
   }
 
   toString() {
