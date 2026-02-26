@@ -13,7 +13,7 @@
     "preact": "^8.2.9",
     "preact-render-to-string": "^3.7.0",
     "react-markdown": "^2.5.1",
-    "recursive-readdir": "^2.2.2"
+    "recursive-readdir": "^2.2.3"
   },
   "scripts": {
     "build": "node ./_build/index.js"
